@@ -106,8 +106,10 @@ const ContactUs = () => {
     rounded-3xl px-2 pt-30 md:pt-50 pb-20 md:pb-60 min-h-[calc(100vh-3rem)]"
       >
         <div className="md:flex items-start justify-center w-full md:w-[85%] bg-white rounded-3xl mx-auto">
-          <div className="md:w-1/2 p-9 md:p-16 bg-gradient-to-r from-[#fdfbfb] to-[#f3e7e9] md:min-h-[800px] rounded-3xl text-black">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl text-primary font-bold mb-4">
+        <div className="relative md:w-1/2  rounded-3xl text-white 
+     bg-[url('/images/contact-us.jpg')] bg-cover bg-center before:rounded-3xl">
+ 
+            <div className='bg-black/20 p-9 md:p-16 md:min-h-[800px]  rounded-3xl'><h1 className="text-3xl md:text-4xl lg:text-5xl text-white font-bold mb-4">
               Let&apos;s Build Together.
             </h1>
             <p className="text-base md:text-lg mb-12">
@@ -124,7 +126,7 @@ const ContactUs = () => {
                   />
                 </div>
                 <div>
-                  <p className="sm:text-xs md:text-sm text-gray-500">
+                  <p className="sm:text-xs md:text-sm text-white">
                     EMAIL US
                   </p>
                   <p>info@thecodesquad.com</p>
@@ -135,7 +137,7 @@ const ContactUs = () => {
                   <MapPin size={24} className="md:size-8" color="white" />
                 </div>
                 <div>
-                  <p className="sm:text-xs md:text-sm text-gray-500">
+                  <p className="sm:text-xs md:text-sm text-white">
                     LOCATION
                   </p>
                   <p>Sydney, Australia</p>
@@ -146,11 +148,11 @@ const ContactUs = () => {
                   <Phone size={24} className="md:size-8" color="white" />
                 </div>
                 <div>
-                  <p className="sm:text-xs md:text-sm text-gray-500">CALL US</p>
+                  <p className="sm:text-xs md:text-sm text-white">CALL US</p>
                   <p>02 8358 7273</p>
                 </div>
               </div>
-            </div>
+            </div></div>
           </div>
 
           <div className="md:w-1/2 bg-white p-8 md:p-16 md:h-[800px]">
