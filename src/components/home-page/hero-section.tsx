@@ -12,17 +12,16 @@ const HeroSection = () => {
 						width={15}
 						height={15}
 					/>
-					Code Innovate Scale
+					Innovate, Scale, Succeed in Australia
 				</div>
 				<div className="text-4xl md:text-6xl md:w-[85%] xl:w-[75%] text-center text-primary leading-14 md:leading-20 lg:leading-24">
-					Empowering Your Vision with <br/>
+					Powering Australian Businesses with <br/>
 					<span className="bg-gradient-to-r from-primary to-secondary text-white px-4 md:px-8 py-1 rounded-2xl border border-secondary">
 						Code and AI
 					</span>
 				</div>
 				<div className="mt-8 text-base lg:text-lg md:w-3/4 lg:w-1/2 text-center text-secondary">
-					Let’s transform your ideas into powerful software solutions that
-					enhance efficiency, engage customers, and fuel long-term success.
+					We help Australian startups and enterprises transform their ideas into innovative, scalable digital solutions. From AI-driven automation to robust software development, we drive business success.
 				</div>
 			</div>
 		</div>

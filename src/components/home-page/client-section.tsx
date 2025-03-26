@@ -63,7 +63,7 @@ const ClientSection = () => {
   return (
     <div className="px-6 pt-16 pb-20 md:py-24 min-h-[50vh] w-full flex flex-col justify-center items-center">
       <div className="text-3xl md:text-4xl lg:text-5xl text-center text-primary">
-        Trusted over <span className="text-tertiary">20+ </span>companies
+        Trusted by <span className="text-tertiary">20+ </span>companies
       </div>
       <div className="mt-10 lg:mt-16 w-full max-w-7xl">
         <Slider {...settings}>

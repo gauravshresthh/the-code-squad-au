@@ -83,7 +83,7 @@ const services = [
     id: 1,
     title: "Web and App Development",
     description:
-      "We build robust, scalable, and high-performance web and mobile applications tailored to your business needs. Our expertise spans across modern frameworks and technologies, ensuring your digital product is optimized for speed, security, and seamless user experience.",
+      "We design and develop high-performance web and mobile applications tailored to Australian businesses. Our expert team leverages modern frameworks and technologies to build secure, scalable, and user-friendly digital solutions that align with local market needs.",
     technologies: [
       { category: "Frontend", items: "React.js, Next.js, Vue.js" },
       { category: "Backend", items: "Node.js, Express.js, NestJS" },
@@ -98,9 +98,9 @@ const services = [
   },
   {
     id: 2,
-    title: "MVP Development for Startups",
+    title: "MVP Development for Australian Startups",
     description:
-      "Turning an idea into a market-ready product requires strategic execution. We specialize in Minimum Viable Product (MVP) development, helping startups rapidly prototype, validate, and launch their solutions with a lean approach.",
+      "We help Australian startups turn their ideas into market-ready products with our streamlined MVP development approach. Our Sydney-based team ensures rapid prototyping, market validation, and seamless scalability, helping you launch with confidence.",
     technologies: [
       {
         category: "Rapid Prototyping & Wireframing",
@@ -116,7 +116,7 @@ const services = [
       },
       {
         category: "Scalable Architecture",
-        items: "Ensuring your product is ready to grow.",
+        items: "Ensuring your product is ready to grow in the Australian market.",
       },
     ],
     image: "/images/about-us3.jpg",
@@ -125,11 +125,11 @@ const services = [
     id: 3,
     title: "Product & Growth Strategy",
     description:
-      "A great product requires more than just development; it needs a strategic roadmap for growth. We guide startups through the entire product lifecycle, from ideation to scaling.",
+      "Building a great product is just the beginning. We provide strategic guidance to Australian businesses, helping them navigate product development, user acquisition, and market expansion with data-driven insights.",
     technologies: [
       {
         category: "Market Research & Competitor Analysis",
-        items: "Understanding the industry landscape.",
+        items: "Understanding the Australian business landscape.",
       },
       {
         category: "Feature Prioritization",
@@ -137,28 +137,28 @@ const services = [
       },
       {
         category: "Growth Hacking & User Acquisition",
-        items: "Data-driven strategies for customer growth.",
+        items: "Localized strategies for customer acquisition and engagement.",
       },
       {
-        category: "Performance Analytic",
-        items: "Optimizing retention, engagement, and revenue.",
+        category: "Performance Analytics",
+        items: "Optimizing retention, engagement, and revenue for Australian businesses.",
       },
     ],
     image: "/images/about-us4.jpg",
   },
   {
     id: 4,
-    title: "Tech Consultation",
+    title: "Tech Consultation for Australian Businesses",
     description:
-      "Navigating the digital landscape can be overwhelming. Our team of seasoned tech experts provides consultation on the best technology stack, software architecture, and development strategies tailored to your business goals.",
+      "Our Sydney-based tech experts provide strategic consultation to help Australian businesses choose the right technology stack, optimize software architecture, and implement scalable cloud solutions while ensuring compliance with local regulations.",
     technologies: [
       {
-        category: "Technology Stack Selection ",
-        items: "Choosing the right tools & frameworks.",
+        category: "Technology Stack Selection",
+        items: "Choosing the right tools & frameworks for Australian businesses.",
       },
       {
         category: "Cloud Architecture & Scalability",
-        items: "AWS, GCP, Azure, and DevOps best practices.",
+        items: "AWS, GCP, Azure, and DevOps best practices for local enterprises.",
       },
       {
         category: "API Integrations & Automation",
@@ -166,7 +166,7 @@ const services = [
       },
       {
         category: "Security & Performance Optimization",
-        items: " Ensuring robust and efficient solutions.",
+        items: "Ensuring compliance with Australian cybersecurity and data privacy laws.",
       },
     ],
     image: "/images/about-us2.jpg",
@@ -201,7 +201,9 @@ const page = () => {
           </div>
         </div>
         <div className="max-w-[120rem] mx-auto sm:px-6 lg:px-8 mt-10 md:mt-20">
+          <div className="px-10">
           <Pills>Our Services</Pills>
+          </div>
           {services.map((service, index) => (
             <div
               key={service.id}

@@ -14,7 +14,7 @@ const AboutSection = () => {
           <div>
             <Image
               src="/images/about-us-section.jpg"
-              alt="about img"
+              alt="About Us"
               width={500}
               height={100}
               className="rounded-2xl"
@@ -25,51 +25,28 @@ const AboutSection = () => {
               <Pills>About Us</Pills>
             </div>
             <div className="text-3xl md:text-4xl lg:text-5xl text-primary ">
-              Professional <br className="hidden lg:block" />
-              <span className="text-tertiary">App Development Agency</span>
+              Leading <br className="hidden lg:block" />
+              <span className="text-tertiary">Australian Digital Solutions Agency</span>
+              <br className="hidden lg:block" />
+              Helping Businesses Succeed
             </div>
-            {/* <div className="mt-4 md:mt-8 text-xl md:text-2xl lg:text-3xl text-secondary">
-              Professional App Development Agency
-            </div> */}
             <div className="mt-4 text-[#909090] text-sm md:text-base">
-              A team of expert developers, designers, and strategists dedicated
-              to empowering startups with innovative digital solutions. Our
-              mission is to help businesses launch, scale, and succeed in an
-              ever-evolving digital landscape. With a deep understanding of
-              technology, user experience, and market trends, we build
-              high-performance web and mobile applications, scalable software
-              solutions, and AI-powered automation tools tailored to meet the
-              unique needs of startups. From MVP development to full-scale
-              digital transformation, we partner with businesses at every stage
-              of their journey.
+              Based in Australia, we are a team of expert developers, designers, and strategists committed to empowering local startups and enterprises. Our goal is to help Australian businesses navigate the digital landscape with innovative, scalable, and regulation-compliant solutions. 
+              
+              With in-depth knowledge of the Australian market, consumer behavior, and industry regulations, we build high-performance web and mobile applications, AI-driven automation tools, and scalable software solutions tailored to local business needs. Whether you need an MVP, eCommerce platform, or a full-scale digital transformation, we are your trusted technology partner.
             </div>
             <div className="text-primary text-sm md:text-base font-semibold mt-4">
-              <div className="flex gap-2 ">
-                <Image
-                  src="/icons/tick.svg"
-                  alt="tick"
-                  width="15"
-                  height="15"
-                />
-                Cutting-edge technology
+              <div className="flex gap-2">
+                <Image src="/icons/tick.svg" alt="tick" width="15" height="15" />
+                Australian market expertise
               </div>
               <div className="flex gap-2">
-                <Image
-                  src="/icons/tick.svg"
-                  alt="tick"
-                  width="15"
-                  height="15"
-                />
-                Scalable solutions tailored for startups
+                <Image src="/icons/tick.svg" alt="tick" width="15" height="15" />
+                Compliance with local regulations & data security laws
               </div>
               <div className="flex gap-2">
-                <Image
-                  src="/icons/tick.svg"
-                  alt="tick"
-                  width="15"
-                  height="15"
-                />
-                Expert team with a startup mindset
+                <Image src="/icons/tick.svg" alt="tick" width="15" height="15" />
+                Scalable digital solutions for Aussie businesses
               </div>
             </div>
             <div className="mt-10">
