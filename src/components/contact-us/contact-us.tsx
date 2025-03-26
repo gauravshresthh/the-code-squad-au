@@ -106,7 +106,7 @@ const ContactUs = () => {
     rounded-3xl px-2 pt-30 md:pt-50 pb-20 md:pb-60 min-h-[calc(100vh-3rem)]"
       >
         <div className="md:flex items-start justify-center w-full md:w-[85%] bg-white rounded-3xl mx-auto">
-        <div className="md:w-1/2 p-9 md:p-16 bg-gradient-to-r from-[#fdfbfb] to-[#f3e7e9] md:min-h-[800px] rounded-3xl text-black">
+          <div className="md:w-1/2 p-9 md:p-16 bg-gradient-to-r from-[#fdfbfb] to-[#f3e7e9] md:min-h-[800px] rounded-3xl text-black">
             <h1 className="text-3xl md:text-4xl lg:text-5xl text-primary font-bold mb-4">
               Let&apos;s Build Together.
             </h1>
@@ -138,7 +138,7 @@ const ContactUs = () => {
                   <p className="sm:text-xs md:text-sm text-gray-500">
                     LOCATION
                   </p>
-                  <p>Imadole, Lalitpur</p>
+                  <p>Sydney, Australia</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -147,10 +147,7 @@ const ContactUs = () => {
                 </div>
                 <div>
                   <p className="sm:text-xs md:text-sm text-gray-500">CALL US</p>
-                  <p>
-                    +977-9816947062,
-                    <br /> +977-9763693458
-                  </p>
+                  <p>02 8358 7273</p>
                 </div>
               </div>
             </div>
