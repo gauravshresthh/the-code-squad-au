@@ -46,12 +46,13 @@ const ClientSection = () => {
 
   const logos = [
     { id: 1, name: "Anydone", logo: "/images/logo-anydone.png" },
+    { id: 2, name: "Racepass", logo: "/images/logo-racepass.webp" },
     { id: 3, name: "Queensford College", logo: "/images/logo-queensford.png" },
-    { id: 2, name: "Learnt", logo: "/images/logo-learnt.webp" },
+    // { id: 2, name: "Learnt", logo: "/images/logo-learnt.webp" },
     { id: 4, name: "Kheladi", logo: "/images/logo-kheladi.png" },
-    { id: 5, name: "Catapult", logo: "/images/logo-catapult.webp" },
-    { id: 6, name: "Swasthya Sambriddi", logo: "/images/logo-swasthya-sambriddhi.png" },
-    { id: 7, name: "Vasto", logo: "/images/logo-vasto.webp" },
+    // { id: 5, name: "Catapult", logo: "/images/logo-catapult.webp" },
+    { id: 6, name: "Swasthya Sambriddi", logo: "/images/logo-swasthya-sambriddhi.webp" },
+    // { id: 7, name: "Vasto", logo: "/images/logo-vasto.webp" },
     { id: 8, name: "GymHub", logo: "/images/logo-gymhub.png" },
     { id: 12, name: "Sajilo App", logo: "/images/logo-sajilo.jpg" },
     { id: 9, name: "Uutyo", logo: "/images/logo-uutyo.png" },
@@ -63,7 +64,7 @@ const ClientSection = () => {
   return (
     <div className="px-6 pt-16 pb-20 md:py-24 min-h-[50vh] w-full flex flex-col justify-center items-center">
       <div className="text-3xl md:text-4xl lg:text-5xl text-center text-primary">
-        Trusted by <span className="text-tertiary">20+ </span>companies
+        Trusted over <span className="text-tertiary">20+ </span>companies
       </div>
       <div className="mt-10 lg:mt-16 w-full max-w-7xl">
         <Slider {...settings}>
