@@ -56,7 +56,7 @@ const ClientSection = () => {
     { id: 8, name: "GymHub", logo: "/images/logo-gymhub.png" },
     { id: 12, name: "Sajilo App", logo: "/images/logo-sajilo.jpg" },
     { id: 9, name: "Uutyo", logo: "/images/logo-uutyo.png" },
-    { id: 10, name: "Pharmacy", logo: "/images/logo-pharmacy.jpg" },
+    { id: 10, name: "Pharmacy", logo: "/images/logo-pharmacy.webp" },
     { id: 11, name: "Ma Ta Chhu Tayar", logo: "/images/logo-ma-ta-chhu-tayar.png" },
     { id: 13, name: "Optonome", logo: "/images/logo-optonome.png" },  
   ];
