@@ -26,7 +26,7 @@ const AboutSection = () => {
             </div>
             <div className="text-3xl md:text-4xl lg:text-5xl text-primary ">
               Leading <br className="hidden lg:block" />
-              <span className="text-tertiary">Australian Digital Solutions Agency</span>
+              <span className="text-tertiary">Australian Digital Solutions Agency </span>
               <br className="hidden lg:block" />
               Helping Businesses Succeed
             </div>
