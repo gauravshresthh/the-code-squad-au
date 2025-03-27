@@ -2,9 +2,7 @@ import React from "react";
 import PrimaryButton from "./primary-button";
 
 const CtaSection = () => {
-  const currentMonth = new Date().toISOString().slice(0, 7);
-
-  const calendlyLink = `https://calendly.com/gauravshresthh/30min?month=${currentMonth}`;
+  const calendlyLink = "https://outlook.office365.com/book/TheCodeSquad1@thecodesquad.onmicrosoft.com/"
   return (
     <div className="p-6">
       <div className="bg-[#F5F6F9] border border-[#d8d8db] rounded-2xl px-6 py-12 lg:py-20">

@@ -8,7 +8,6 @@ import { usePathname } from 'next/navigation';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const currentMonth = new Date().toISOString().slice(0, 7);
   const pathname = usePathname();
 
   const navItems = [
@@ -18,7 +17,7 @@ export default function Navbar() {
     { href: '/contact-us', label: 'Contact' },
   ];
 
-  const calendlyLink = `https://calendly.com/gauravshresthh/30min?month=${currentMonth}`;
+  const calendlyLink = `https://outlook.office365.com/book/TheCodeSquad1@thecodesquad.onmicrosoft.com/`;
   return (
     <nav className="bg-white shadow-md rounded-2xl md:rounded-full w-[80%] md:w-[90%]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
