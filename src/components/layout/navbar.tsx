@@ -30,13 +30,13 @@ export default function Navbar() {
               className="text-lg md:text-xl font-bold text-primary flex items-center gap-4"
             >
               <Image
-                src="/icons/logo.svg"
+                src="/icons/logo-new.svg"
                 alt="logo"
                 className=""
-                height={50}
-                width={50}
+                height={200}
+                width={200}
               />
-              TheCodeSquad
+              {/* TheCodeSquad */}
             </Link>
           </div>
 

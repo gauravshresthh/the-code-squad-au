@@ -13,8 +13,8 @@ const Footer = () => {
                 href="/"
                 className="text-lg md:text-xl font-bold text-primary flex items-center gap-4"
               >
-                <Image src="/icons/logo.svg" alt="logo" height={50} width={50} />
-                TheCodeSquad Australia
+                <Image src="/icons/logo-new.svg" alt="logo" height={200} width={200} />
+                {/* Australia */}
               </Link>
               <div className="text-sm md:text-base text-[#909090] mt-4">
                 At TheCodeSquad, we craft innovative, scalable, and
