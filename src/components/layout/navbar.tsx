@@ -37,7 +37,6 @@ export default function Navbar() {
                 height={200}
                 width={200}
               />
-              {/* TheCodeSquad */}
             </Link>
           </div>
 
