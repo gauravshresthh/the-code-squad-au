@@ -34,7 +34,7 @@ const BlogPage = () => {
     const fetchBlogs = async () => {
       try {
         const res = await fetch(
-          `${process.env.NEXT_PUBLIC_API_URL}/api/v1/blog/published-blogs-au`,
+          `/api/v1/blog/published-blogs-au`,
           {
             method: "GET",
             headers: {

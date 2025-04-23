@@ -31,7 +31,7 @@ const BlogDetailPage = () => {
     const fetchBlog = async () => {
       try {
         const res = await fetch(
-          `${process.env.NEXT_PUBLIC_API_URL}/api/v1/blog/slug/${slug}`
+          `/api/v1/blog/slug/${slug}`
         );
         const data = await res.json();
         setBlog(data.data);

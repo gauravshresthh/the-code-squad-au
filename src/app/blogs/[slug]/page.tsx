@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: { params: Params }) {
   }
 
   // Fetch the blog data dynamically
-  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/v1/blog/slug/${slug}`);
+  const res = await fetch(`/api/v1/blog/slug/${slug}`);
   
   if (!res.ok) {
     return {}; // Handle errors gracefully if the fetch fails
