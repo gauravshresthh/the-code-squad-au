@@ -34,7 +34,13 @@ const BlogPage = () => {
     const fetchBlogs = async () => {
       try {
         const res = await fetch(
-          `${process.env.NEXT_PUBLIC_API_URL}/api/v1/blog/published-blogs-au`
+          `${process.env.NEXT_PUBLIC_API_URL}/api/v1/blog/published-blogs-au`,
+          {
+            method: "GET",
+            headers: {
+              "Content-Type": "application/json",
+            },
+          }
         );
         const data = await res.json();
         setBlogs(data.data);
